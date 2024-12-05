@@ -13,7 +13,7 @@ app.use(express.json());
 
 //db connection
 async function main() { 
-  await mongoose.connect('mongodb://127.0.0.1:27017/TestYour');
+  await mongoose.connect('mongodb+srv://nikeshgiri90raj:jbdAtaH0GoFLYeHE@cluster0.yvec9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
   console.log('database connected')
 }
 
